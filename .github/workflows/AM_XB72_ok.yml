@@ -1,2 +1,12 @@
-name: t2
-update: okok
+name: Reusable Build Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
