@@ -12,10 +12,5 @@ on:
       - 'develop'
       - 'feat/**'
 jobs:
-  job2:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo test
-
   job1:
     uses: turbo5000c/am-reuseable-workflow/.github/workflows/AM_123_main-workflow.yml@main
