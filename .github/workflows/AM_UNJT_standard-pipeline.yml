@@ -22,7 +22,7 @@ jobs:
   build-vars:
     runs-on: ubuntu-latest
     outputs:
-      build-type: ${{{{ steps.detect.outputs.build-type }}}}
+      build-type: ${ steps.detect.outputs.build-type }
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
