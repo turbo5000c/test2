@@ -11,7 +11,8 @@ on:
       - 'main'
       - 'develop'
       - 'feat/**'
-  
 jobs:
-  build:
-    run: echo test
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo test
