@@ -18,4 +18,4 @@ jobs:
       - run: echo test
 
   job1:
-    uses: turbo5000c/am-reuseable-workflow/.github/workflows/main-workflow.yml@main
+    uses: turbo5000c/am-reuseable-workflow/.github/workflows/AM_123_main-workflow.yml@main
