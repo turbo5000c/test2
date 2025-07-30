@@ -16,4 +16,5 @@ jobs:
   build:
     if: github.ref != 'refs/heads/main' # make sure main does not overwrite prod deployed tags. 
     uses: turbo5000c/am-reuseable-workflow/.github/workflows/AM_UNJT_main-workflow.yml@main
-    secrets: inherit
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
