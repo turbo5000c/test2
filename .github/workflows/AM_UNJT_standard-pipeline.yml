@@ -16,3 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo test
+
+  job1:
+    uses: turbo5000c/am-reuseable-workflow/.github/workflows/AM_UNJT_main-workflow.yml@main
