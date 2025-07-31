@@ -11,6 +11,10 @@ on:
       - 'main'
       - 'develop'
       - 'feat/**'
+
+permissions:
+  contents: write
+  actions: read
   
 jobs:
   build:
