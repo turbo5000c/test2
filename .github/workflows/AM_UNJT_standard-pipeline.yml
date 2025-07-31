@@ -19,4 +19,5 @@ permissions:
 jobs:
   build:
     uses: turbo5000c/am-reusable-workflow/.github/workflows/AM_123_main-workflow.yml@main
-    secrets: inherit
+    secrets:
+      token: ${{ secrets.CI_TOKEN }}
