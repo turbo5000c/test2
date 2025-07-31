@@ -14,5 +14,5 @@ on:
   
 jobs:
   build:
-    uses: turbo5000c/am-reusable-workflow/.github/workflow/AM_UNJT_main-workflow.yml@main
+    uses: turbo5000c/am-reusable-workflow/.github/workflows/AM_UNJT_main-workflow.yml@main
     secrets: inherit
