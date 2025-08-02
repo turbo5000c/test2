@@ -1,5 +1,5 @@
-name: UNJT Pipeline
-#test
+name: Z4UJ Pipeline
+
 on:
   workflow_dispatch:
   push:
@@ -14,5 +14,5 @@ on:
   
 jobs:
   build:
-    uses: turbo5000c/am-reuseable-workflow/.github/workflows/AM_UNJT_main-workflow.yml@main
+    uses: turbo5000c/am-reuseable-workflow/.github/workflows/AM_Z4UJ_main-workflow.yml@main
     secrets: inherit
