@@ -1,0 +1,18 @@
+name: 'CI/CD Workflow for Project OI1I'
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  call-reusable-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Reusable Workflow
+        uses: turbo5000c/am-reusable-workflows/.github/workflows/AM_OI1I_build_deploy.yml@develop
+        with:
+          project_code: 'OI1I'
